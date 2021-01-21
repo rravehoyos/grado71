@@ -1,0 +1,41 @@
+ .banner{
+ 	position: absolute;
+ 	top: 1%;
+ 	left: 15%;
+ 	width: 70%;
+ 	height: 30%;
+ 	animation-name: example;
+ 	background:url(h4.jpg);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-size:cover;
+    border: solid black 10px;
+}
+
+ 
+
+@keyframes example {
+  0%   {background:url(h1.jpg);background-size:cover;}
+  25%  {background:url(h2.jpeg);background-size:cover;}
+  50%  {background:url(h3.jpg);background-size:cover;}
+  75% {background:url(h4.jpg);background-size:cover;}
+}
+.pa1{
+	color: white;
+	font-size: 40px;
+	margin-left: 315px;
+	font-family: 'Lobster', cursive;
+}
+.pa2{
+	margin-top: 500px;
+	font-family: ricardo;
+	font-size: 40px;
+	color: black;
+
+
+}
+
+@font-face{
+	font-family:ricardo ;
+	src: url(fuente.ttf);
+}
